@@ -1,10 +1,13 @@
-<?php
+<html lang="en">
+    <head>
 
-echo "<pre>";
-print_r($_GET);
-print_r($_POST);
-var_dump($_POST);
-echo"</pre>";
+    </head>
+     <body>
 
-
-?>
+     <form action="login_auth.php" method="post">
+        <input type="text" name="user" id="" placeholder="Username">
+        <input type="text" name="pass" id=""placeholder="Password">
+        <input type="Submit" value="Login">
+     </form>
+     </body>
+</html>
